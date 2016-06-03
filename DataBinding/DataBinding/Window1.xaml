@@ -1,0 +1,56 @@
+﻿<Window x:Class="DataBinding.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vrs="clr-namespace:DataBinding.ValidationRules"        
+        Title="Window1" Height="300" Width="300">
+    <Window.Resources>
+        <ResourceDictionary>
+            <Style x:Key="errorStyle">
+                <Style.Triggers>
+                    <Trigger Property="Validation.HasError" Value="true">
+                        <Trigger.Setters>
+                            <Setter Property="Validation.ErrorTemplate">
+                                <Setter.Value>
+                                    <ControlTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <AdornedElementPlaceholder Name="ControlInErrorStatePlaceHolder"></AdornedElementPlaceholder>
+                                            <TextBlock Text="{Binding ElementName=ControlInErrorStatePlaceHolder, Path=AdornedElement.(Validation.Errors)[0].ErrorContent}" Foreground="Red" FontSize="18"></TextBlock>
+                                        </StackPanel>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger.Setters>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
+    
+    
+    <StackPanel>
+        <TextBox Width="100" Text="{Binding Path=State}"></TextBox>
+        <TextBox Width="100" Style="{StaticResource ResourceKey=errorStyle}">
+            <TextBox.Text>
+                <Binding Path="IntState" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <vrs:IntStateValidationRules> </vrs:IntStateValidationRules>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <!--
+        <TextBox Width="100" Text="{Binding RelativeSource={RelativeSource Mode=FindAncestor , AncestorType=Window},Path=Title}"></TextBox>
+        -->
+        <Button Content="GetEntityState" Click="OnEntityGetState_click"  Width="100"></Button>
+        <Button Content="SetEntityState" Click="OnEntitySetState_click" Width="100"></Button>
+        <Button Content="UpdateEntityState" Click="OnEntityUpdateState_click" Width="100"></Button>
+    </StackPanel>
+    
+    <!--<StackPanel Name="OuterSP">
+        <StackPanel Name="innerSP">
+            <StackPanel Name="Leaf">
+                <TextBox Text="{Binding RelativeSource={RelativeSource AncestorType=StackPanel,AncestorLevel=3},Path=Name}"></TextBox>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>-->
+</Window>

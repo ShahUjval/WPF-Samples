@@ -1,0 +1,5 @@
+c:\users\310213727\documents\visual studio 2013\Projects\MarkUpExtensions\MarkUpExtensions\obj\Debug\MainWindow.g.cs
+c:\users\310213727\documents\visual studio 2013\Projects\MarkUpExtensions\MarkUpExtensions\obj\Debug\App.g.cs
+c:\users\310213727\documents\visual studio 2013\Projects\MarkUpExtensions\MarkUpExtensions\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\310213727\documents\visual studio 2013\Projects\MarkUpExtensions\MarkUpExtensions\obj\Debug\MarkUpExtensions_MarkupCompile.cache
+c:\users\310213727\documents\visual studio 2013\Projects\MarkUpExtensions\MarkUpExtensions\obj\Debug\MarkUpExtensions_MarkupCompile.lref

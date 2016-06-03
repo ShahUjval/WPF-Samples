@@ -1,0 +1,78 @@
+﻿<Window x:Class="DataBinding.CollectionViewDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:repo="clr-namespace:DataBinding.DataRepository"
+        Title="CollectionViewDemo" Height="300" Width="300">
+    
+    <Window.Resources>
+        <ResourceDictionary>
+            <DataTemplate DataType="{x:Type repo:Customer}" x:Key="customerDataTempl">
+                <Border CornerRadius="5" BorderBrush="Orange" BorderThickness="5" Background="Green" Name="BorderRef">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"></ColumnDefinition>
+                            <ColumnDefinition Width="auto"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="FirstName :" Grid.Row="0" Grid.Column="0" Margin="5" Foreground="White"></TextBlock>
+                        <TextBlock Text="MiddleName :" Grid.Row="1" Grid.Column="0" Margin="5" Foreground="White"></TextBlock>
+                        <TextBlock Text="LastName :" Grid.Row="2" Grid.Column="0" Margin="5" Foreground="White"></TextBlock>
+
+                        <TextBlock Text="{Binding Path=FirstName}" Grid.Row="0" Grid.Column="1" Margin="5" Foreground="White"></TextBlock>
+                        <TextBlock Text="{Binding Path=MiddleName}" Grid.Row="1" Grid.Column="1" Margin="5" Foreground="White"></TextBlock>
+                        <TextBlock Text="{Binding Path=LastName}" Grid.Row="2" Grid.Column="1" Margin="5" Foreground="White"></TextBlock>
+                    </Grid>
+                </Border>
+                <DataTemplate.Triggers>
+                    <DataTrigger Binding="{Binding Path=FirstName}" Value="Ujval">
+                        <DataTrigger.Setters>
+                            <Setter Property="Background"
+                                    Value="DarkRed"
+                                    TargetName="BorderRef">
+                            </Setter>
+                        </DataTrigger.Setters>
+                    </DataTrigger>
+                </DataTemplate.Triggers>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Window.Resources>
+    
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Left" Width="200">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" Margin="5" Text="FirstName"></TextBlock>
+                <TextBlock Grid.Row="1" Grid.Column="0" Margin="5" Text="MiddleName"></TextBlock>
+                <TextBlock Grid.Row="2" Grid.Column="0" Margin="5" Text="LastName"></TextBlock>
+
+                <TextBox Grid.Row="0" Grid.Column="1" Margin="5" Width="100"  Text="{Binding Path=NewCustomer.FirstName , Mode=OneWayToSource}"></TextBox>
+                <TextBox Grid.Row="1" Grid.Column="1" Margin="5" Width="100" Text="{Binding Path=NewCustomer.MiddleName , Mode=OneWayToSource}"></TextBox>
+                <TextBox Grid.Row="2" Grid.Column="1" Margin="5" Width="100" Text="{Binding Path=NewCustomer.LastName , Mode=OneWayToSource}"></TextBox>
+                <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Width="100" Content="AddNewEmp" Click="OnNewAddEmp_Click">
+                    
+                </Button>
+            </Grid>
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Left"></StackPanel>
+        <!-- Master -->
+        <ListBox Name="CustomersList" ItemsSource="{Binding Path=CustomersList}" Width="100" ItemTemplate="{StaticResource ResourceKey=customerDataTempl}"></ListBox>
+        <!--Detail-->
+        <ContentControl Content="{Binding ElementName=CustomersList , Path=SelectedItem}" ContentTemplate="{StaticResource ResourceKey=customerDataTempl}">
+            
+        </ContentControl>
+    </DockPanel>
+    
+</Window>
