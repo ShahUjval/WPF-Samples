@@ -1,0 +1,6 @@
+c:\users\310213727\documents\visual studio 2013\Projects\WpfApplication1\StyleMock\bin\Debug\StyleMock.exe.config
+c:\users\310213727\documents\visual studio 2013\Projects\WpfApplication1\StyleMock\bin\Debug\StyleMock.exe
+c:\users\310213727\documents\visual studio 2013\Projects\WpfApplication1\StyleMock\bin\Debug\StyleMock.pdb
+c:\users\310213727\documents\visual studio 2013\Projects\WpfApplication1\StyleMock\obj\Debug\StyleMock.exe
+c:\users\310213727\documents\visual studio 2013\Projects\WpfApplication1\StyleMock\obj\Debug\StyleMock.pdb
+c:\users\310213727\documents\visual studio 2013\Projects\WpfApplication1\StyleMock\obj\Debug\StyleMock.csprojResolveAssemblyReference.cache

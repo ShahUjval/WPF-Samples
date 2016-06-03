@@ -1,0 +1,60 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mes="clr-namespace:WpfApplication1.MarkupExtensions"
+        xmlns:repo="clr-namespace:WpfApplication1.Repository"
+        Title="MainWindow" Height="350" Width="525">
+    
+    <Window.Resources>
+        <ResourceDictionary>
+            <repo:Culture x:Key="indCulture" Lang="en" Region="in"> </repo:Culture>
+            <repo:Culture x:Key="usCulture" Lang="en" Region="US"> </repo:Culture>
+            <repo:Culture x:Key="ukCulture" Lang="en" Region="GB"> </repo:Culture>
+        </ResourceDictionary>
+        
+    </Window.Resources>
+    
+    <Window.Content>
+        
+        <StackPanel>
+            
+            <!--
+            if(ButtonContentProviderExtension is type of MarkupExtension) 
+            {
+                 MarkupExtension obj = new ButtonContentProviderExtension();
+                 button.Content = obj.ProvideValue(); 
+            }
+            -->
+            <!-- 
+                  3 times object 3 times it will called the method make it singleton let the object created any number of times 
+            
+            <Button Content="{mes:ButtonContentProviderExtension CulRef={StaticResource ResourceKey=indCulture}}" Width="100" Height="30"></Button>
+-->
+            <!--
+            <Button Content="{mes:ButtonContentProviderExtension "en-US"}" Width="100" Height="30"></Button>
+            
+            <Button Content="{mes:ButtonContentProviderExtension CultKey=en-GB}" Width="100" Height="30">
+                    </Button>
+
+            <Button Content="{mes:ButtonContentProviderExtension en-in,CultKey=en-UK}" Width="100" Height="30">
+            </Button>
+
+            <Button Content="{mes:ButtonContentProviderExtension 100}" Width="100" Height="30">
+            </Button>
+             -->
+            <Button Content="{mes:ButtonContentProvider CulRef={mes:CultureProvider en,Region=in}}" Width="100" Height="30"></Button>
+            <Button Content="{mes:ButtonContentProvider CulRef={mes:CultureProvider en,Region=US}}" Width="100" Height="30"></Button>
+            <Button Content="{mes:ButtonContentProvider CulRef={mes:CultureProvider en,Region=GB}}" Width="100" Height="30"></Button>
+            <Button Content="{}"></Button>
+            
+            
+            <Button Content="{mes:ButtonContentProvider CulRef={StaticResource ResourceKey=indCulture}}" Width="100" Height="30"></Button>
+            <Button Content="{mes:ButtonContentProvider CulRef={StaticResource ResourceKey=usCulture}}" Width="100" Height="30"></Button>
+            <Button Content="{mes:ButtonContentProvider CulRef={StaticResource ResourceKey=ukCulture}}" Width="100" Height="30"></Button>
+
+
+
+        </StackPanel>
+    </Window.Content>
+    
+</Window>
