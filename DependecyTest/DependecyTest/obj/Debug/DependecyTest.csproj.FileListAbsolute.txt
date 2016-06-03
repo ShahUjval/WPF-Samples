@@ -1,0 +1,6 @@
+c:\users\310213727\documents\visual studio 2013\Projects\DependecyTest\DependecyTest\bin\Debug\DependecyTest.exe
+c:\users\310213727\documents\visual studio 2013\Projects\DependecyTest\DependecyTest\bin\Debug\DependecyTest.pdb
+c:\users\310213727\documents\visual studio 2013\Projects\DependecyTest\DependecyTest\obj\Debug\DependecyTest.csprojResolveAssemblyReference.cache
+c:\users\310213727\documents\visual studio 2013\Projects\DependecyTest\DependecyTest\obj\Debug\DependecyTest.exe
+c:\users\310213727\documents\visual studio 2013\Projects\DependecyTest\DependecyTest\obj\Debug\DependecyTest.pdb
+c:\users\310213727\documents\visual studio 2013\Projects\DependecyTest\DependecyTest\bin\Debug\DependecyTest.exe.config

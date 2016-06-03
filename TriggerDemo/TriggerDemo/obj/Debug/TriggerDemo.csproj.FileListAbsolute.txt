@@ -1,0 +1,13 @@
+c:\users\310213727\documents\visual studio 2013\Projects\TriggerDemo\TriggerDemo\bin\Debug\TriggerDemo.exe.config
+c:\users\310213727\documents\visual studio 2013\Projects\TriggerDemo\TriggerDemo\bin\Debug\TriggerDemo.exe
+c:\users\310213727\documents\visual studio 2013\Projects\TriggerDemo\TriggerDemo\bin\Debug\TriggerDemo.pdb
+c:\users\310213727\documents\visual studio 2013\Projects\TriggerDemo\TriggerDemo\obj\Debug\TriggerDemo.csprojResolveAssemblyReference.cache
+c:\users\310213727\documents\visual studio 2013\Projects\TriggerDemo\TriggerDemo\obj\Debug\MainWindow.baml
+c:\users\310213727\documents\visual studio 2013\Projects\TriggerDemo\TriggerDemo\obj\Debug\MainWindow.g.cs
+c:\users\310213727\documents\visual studio 2013\Projects\TriggerDemo\TriggerDemo\obj\Debug\App.g.cs
+c:\users\310213727\documents\visual studio 2013\Projects\TriggerDemo\TriggerDemo\obj\Debug\TriggerDemo_MarkupCompile.cache
+c:\users\310213727\documents\visual studio 2013\Projects\TriggerDemo\TriggerDemo\obj\Debug\TriggerDemo.g.resources
+c:\users\310213727\documents\visual studio 2013\Projects\TriggerDemo\TriggerDemo\obj\Debug\TriggerDemo.Properties.Resources.resources
+c:\users\310213727\documents\visual studio 2013\Projects\TriggerDemo\TriggerDemo\obj\Debug\TriggerDemo.csproj.GenerateResource.Cache
+c:\users\310213727\documents\visual studio 2013\Projects\TriggerDemo\TriggerDemo\obj\Debug\TriggerDemo.exe
+c:\users\310213727\documents\visual studio 2013\Projects\TriggerDemo\TriggerDemo\obj\Debug\TriggerDemo.pdb
