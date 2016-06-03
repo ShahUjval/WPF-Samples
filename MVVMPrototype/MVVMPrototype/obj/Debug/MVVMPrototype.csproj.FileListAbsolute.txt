@@ -1,0 +1,11 @@
+c:\users\310213727\documents\visual studio 2013\Projects\MVVMPrototype\MVVMPrototype\bin\Debug\MVVMPrototype.exe.config
+c:\users\310213727\documents\visual studio 2013\Projects\MVVMPrototype\MVVMPrototype\bin\Debug\MVVMPrototype.exe
+c:\users\310213727\documents\visual studio 2013\Projects\MVVMPrototype\MVVMPrototype\bin\Debug\MVVMPrototype.pdb
+c:\users\310213727\documents\visual studio 2013\Projects\MVVMPrototype\MVVMPrototype\obj\Debug\MVVMPrototype.csprojResolveAssemblyReference.cache
+c:\users\310213727\documents\visual studio 2013\Projects\MVVMPrototype\MVVMPrototype\obj\Debug\MVVMPrototype.exe
+c:\users\310213727\documents\visual studio 2013\Projects\MVVMPrototype\MVVMPrototype\obj\Debug\MVVMPrototype.pdb
+c:\users\310213727\documents\visual studio 2013\Projects\MVVMPrototype\MVVMPrototype\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\310213727\documents\visual studio 2013\Projects\MVVMPrototype\MVVMPrototype\obj\Debug\MVVMPrototype_MarkupCompile.cache
+c:\users\310213727\documents\visual studio 2013\Projects\MVVMPrototype\MVVMPrototype\obj\Debug\MVVMPrototype_MarkupCompile.lref
+c:\users\310213727\documents\visual studio 2013\Projects\MVVMPrototype\MVVMPrototype\obj\Debug\View.baml
+c:\users\310213727\documents\visual studio 2013\Projects\MVVMPrototype\MVVMPrototype\obj\Debug\MVVMPrototype.g.resources

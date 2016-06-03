@@ -1,0 +1,18 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:local="clr-namespace:MVVMPrototype">
+    <Window.DataContext>
+        <local:ViewModel></local:ViewModel>
+    </Window.DataContext>
+    
+    <Window.Content>
+        <StackPanel>
+            <Button Height="30" Width="100" Content="AddNewItem" Command="{Binding Path=AddItemCommand , Mode=OneTime}">
+            </Button>
+
+            <TextBox Width="100" Text="{Binding Path=ItemName , Mode=OneWayToSource}"></TextBox>
+            <TextBox Width="100" Text="{Binding Path=ItemType , Mode=OneWayToSource}"></TextBox>
+            <TextBox Width="100" Text="{Binding Path=ItemCost , Mode=OneWayToSource}"></TextBox>
+        </StackPanel>
+    </Window.Content>
+  
+</Window>

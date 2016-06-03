@@ -1,0 +1,1 @@
+c:\users\310213727\documents\visual studio 2013\Projects\CollectionView\CollectionView\bin\Debug\CollectionView.exe.config
