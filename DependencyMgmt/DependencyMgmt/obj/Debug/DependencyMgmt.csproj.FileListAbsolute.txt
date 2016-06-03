@@ -1,0 +1,6 @@
+c:\users\310213727\documents\visual studio 2013\Projects\DependencyMgmt\DependencyMgmt\bin\Debug\DependencyMgmt.exe.config
+c:\users\310213727\documents\visual studio 2013\Projects\DependencyMgmt\DependencyMgmt\bin\Debug\DependencyMgmt.exe
+c:\users\310213727\documents\visual studio 2013\Projects\DependencyMgmt\DependencyMgmt\bin\Debug\DependencyMgmt.pdb
+c:\users\310213727\documents\visual studio 2013\Projects\DependencyMgmt\DependencyMgmt\obj\Debug\DependencyMgmt.csprojResolveAssemblyReference.cache
+c:\users\310213727\documents\visual studio 2013\Projects\DependencyMgmt\DependencyMgmt\obj\Debug\DependencyMgmt.exe
+c:\users\310213727\documents\visual studio 2013\Projects\DependencyMgmt\DependencyMgmt\obj\Debug\DependencyMgmt.pdb
