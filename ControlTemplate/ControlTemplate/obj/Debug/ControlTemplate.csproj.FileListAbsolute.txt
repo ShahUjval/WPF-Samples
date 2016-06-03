@@ -1,0 +1,13 @@
+c:\users\310213727\documents\visual studio 2013\Projects\ControlTemplate\ControlTemplate\bin\Debug\ControlTemplate.exe.config
+c:\users\310213727\documents\visual studio 2013\Projects\ControlTemplate\ControlTemplate\bin\Debug\ControlTemplate.exe
+c:\users\310213727\documents\visual studio 2013\Projects\ControlTemplate\ControlTemplate\bin\Debug\ControlTemplate.pdb
+c:\users\310213727\documents\visual studio 2013\Projects\ControlTemplate\ControlTemplate\obj\Debug\ControlTemplate.csprojResolveAssemblyReference.cache
+c:\users\310213727\documents\visual studio 2013\Projects\ControlTemplate\ControlTemplate\obj\Debug\MainWindow.baml
+c:\users\310213727\documents\visual studio 2013\Projects\ControlTemplate\ControlTemplate\obj\Debug\MainWindow.g.cs
+c:\users\310213727\documents\visual studio 2013\Projects\ControlTemplate\ControlTemplate\obj\Debug\App.g.cs
+c:\users\310213727\documents\visual studio 2013\Projects\ControlTemplate\ControlTemplate\obj\Debug\ControlTemplate_MarkupCompile.cache
+c:\users\310213727\documents\visual studio 2013\Projects\ControlTemplate\ControlTemplate\obj\Debug\ControlTemplate.g.resources
+c:\users\310213727\documents\visual studio 2013\Projects\ControlTemplate\ControlTemplate\obj\Debug\ControlTemplate.Properties.Resources.resources
+c:\users\310213727\documents\visual studio 2013\Projects\ControlTemplate\ControlTemplate\obj\Debug\ControlTemplate.csproj.GenerateResource.Cache
+c:\users\310213727\documents\visual studio 2013\Projects\ControlTemplate\ControlTemplate\obj\Debug\ControlTemplate.exe
+c:\users\310213727\documents\visual studio 2013\Projects\ControlTemplate\ControlTemplate\obj\Debug\ControlTemplate.pdb

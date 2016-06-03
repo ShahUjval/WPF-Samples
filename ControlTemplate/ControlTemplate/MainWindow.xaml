@@ -1,0 +1,84 @@
+﻿<Window x:Class="ControlTemplate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Window.Resources>
+        <ResourceDictionary>
+
+            <ControlTemplate x:Key="buttontemplate" TargetType="Button">
+                <Grid>
+                    <Ellipse Name="innerCircle">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                <LinearGradientBrush.GradientStops>
+                                    <GradientStop Offset="0" Color="Transparent"></GradientStop>
+                                    <GradientStop Offset="1" Color="Navy"></GradientStop>
+                                </LinearGradientBrush.GradientStops>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <!--Source Templated Parent-->
+                    <TextBlock Text="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="ExtraBold" Foreground="DarkViolet"></TextBlock>
+                </Grid>
+                <ControlTemplate.Triggers>
+                    <Trigger Property="IsPressed" Value="true">
+                        <Trigger.Setters>
+                            <Setter Property="RenderTransform">
+                                <Setter.Value>
+                                    <ScaleTransform ScaleX=".8" ScaleY=".8"></ScaleTransform>
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="RenderTransformOrigin" Value=".5,.5">
+                                
+                            </Setter>
+                        </Trigger.Setters>
+                    </Trigger>
+                    <Trigger Property="IsMouseOver" Value="true">
+                        <Setter TargetName="innerCircle" Property="Fill" Value="Yellow">
+                            
+                        </Setter>
+                    </Trigger>
+                </ControlTemplate.Triggers>
+            </ControlTemplate>
+            
+            <Style TargetType="Button" x:Key="buttonStyle">
+                <Style.Setters>
+                    <Setter Property="Height" Value="30"></Setter>
+                    <Setter Property="Width" Value="100"></Setter>
+                    <Setter Property="FontSize" Value="18"></Setter>
+                    <Setter Property="Foreground" Value="Blue"></Setter>
+                    <Setter Property="Template" Value="{StaticResource ResourceKey=buttontemplate}"></Setter>
+                </Style.Setters>     
+                <!--
+                <Style.Triggers>
+                    
+                    <Trigger Property="IsMouseOver" Value="true">
+                        <Trigger.Setters>
+                            <Setter Property="Background" Value="Bisque"></Setter>
+                        </Trigger.Setters>
+                    </Trigger>
+                </Style.Triggers>
+                -->
+            </Style>
+            
+        </ResourceDictionary>
+        
+    </Window.Resources>
+    
+    
+    <StackPanel>
+        <!--Templated Parent-->
+        <Button Content="insert" Style="{StaticResource ResourceKey=buttonStyle}">
+            
+        </Button>
+        <Button Content="update" Style="{StaticResource ResourceKey=buttonStyle}">
+
+        </Button>
+        <Button Content="delete" Style="{StaticResource ResourceKey=buttonStyle}">
+
+        </Button>
+        <Button Content="select" Style="{StaticResource ResourceKey=buttonStyle}">
+
+        </Button>
+    </StackPanel>
+</Window>

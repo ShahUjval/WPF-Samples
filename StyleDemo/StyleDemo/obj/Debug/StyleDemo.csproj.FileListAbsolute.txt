@@ -1,0 +1,16 @@
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\StyleDemo\bin\Debug\StyleDemo.exe.config
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\StyleDemo\bin\Debug\StyleDemo.exe
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\StyleDemo\bin\Debug\StyleDemo.pdb
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\StyleDemo\obj\Debug\StyleDemo.csprojResolveAssemblyReference.cache
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\StyleDemo\obj\Debug\MainWindow.baml
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\StyleDemo\obj\Debug\MainWindow.g.cs
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\StyleDemo\obj\Debug\App.g.cs
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\StyleDemo\obj\Debug\StyleDemo_MarkupCompile.cache
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\StyleDemo\obj\Debug\StyleDemo.g.resources
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\StyleDemo\obj\Debug\StyleDemo.Properties.Resources.resources
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\StyleDemo\obj\Debug\StyleDemo.csproj.GenerateResource.Cache
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\StyleDemo\obj\Debug\StyleDemo.exe
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\StyleDemo\obj\Debug\StyleDemo.pdb
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\StyleDemo\obj\Debug\App.baml
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\StyleDemo\bin\Debug\ClassLibrary1.dll
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\StyleDemo\bin\Debug\ClassLibrary1.pdb

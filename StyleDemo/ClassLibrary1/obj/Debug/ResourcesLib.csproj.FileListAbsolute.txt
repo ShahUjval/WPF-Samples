@@ -1,0 +1,7 @@
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\ClassLibrary1\obj\Debug\Resources\Styles\ButtonStyles.baml
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\ClassLibrary1\obj\Debug\ClassLibrary1_MarkupCompile.cache
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\ClassLibrary1\obj\Debug\ClassLibrary1.g.resources
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+c:\users\310213727\documents\visual studio 2013\Projects\StyleDemo\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
